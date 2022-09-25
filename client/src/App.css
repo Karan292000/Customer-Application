@@ -1,0 +1,287 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* header section */
+.headers{
+  width:100%;
+  background-color:rgba(247, 22, 22, 0.527);
+}
+
+/* Home */
+.main{
+  display: flex;
+  width: 100%;
+ 
+}
+.div1{
+   flex:1;
+ 
+   
+}
+.div2{
+ 
+  width: 100%;
+  
+}
+/* end Home */
+
+/* Lists  */
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  flex:1;
+  
+}
+.img{
+  height: 60px;
+  border-radius: 50px;
+}
+.text{
+  padding-left: 1em;
+  font-size: 0.8em;
+  line-height: 0em; 
+}
+
+/* user icon list */
+.user-icon-div{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color:rgb(121, 27, 27)
+}
+.user-icon{
+     font-size:2.5em;
+     align-items: center;
+     margin-left:0.1em;
+}
+
+/* chevron */
+.btn-icon{
+  border: none;
+  height: 0;
+  margin-top: 1em;
+  margin-right:0em;
+  font-size: 1em;
+  font-weight: bold;
+  color:maroon;
+  text-align: right;
+  margin-right:0em;
+}
+.icon-text-div{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+}
+/* serach and add icons */
+.icon-div {
+  flex-direction: row;
+  display: flex;
+}
+.search {
+  border: none;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.fas,
+.fap {
+  height: 30px;
+  width: 20px;
+  color: grey;
+}
+.fas {
+  margin-right: 1em;
+}
+.select-sort {
+  margin-top: 0.3em;
+  margin-left: 12em;
+  border-color: honeydew;
+}
+.div1hr {
+  width: 180px;
+  border-top: 10px solid;
+  border-radius: 5px;
+}
+.div2hr {
+  width: 180px;
+  border-top: 10px solid;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+/* modal form */
+.mb-3{
+  border-color:red;
+  border-width: 1.3px;
+
+}
+.cancel{
+     width:100px;
+     color:maroon;
+     height:40px;
+     border-color: maroon;
+     font-weight:bold;
+     margin-left: 5em;
+}
+.proceed{
+  font-weight:bold;
+  width:100px; 
+  border-color: maroon;
+  color: maroon;
+  height:40px;
+  margin-left: 3em;
+}
+
+/* div 2 profile div 1 */
+.profile1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+.prof1-img{
+     border-radius: 50%;
+}
+.prof1-icon{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  color:rgb(117, 2, 2)
+}
+.content-prof1{
+  margin-top:7em;
+ 
+}
+.usr-name{
+  font-size: 1.5em;
+  padding-right: 3em;
+}
+.usr-mail{
+  font-size: 1.5em;
+ 
+}
+.usr-flname{
+  margin-left: 1.2em;
+  display: inline;
+}
+.btns1{
+  border:maroon;
+  background-color: maroon;
+  color:white
+}
+.address-div{
+  width:300px;
+  align-items: center;
+  margin-left: 4em;
+}
+.address-div li{
+  list-style-type: none;
+}
+.address-div .right-span{
+  float: right;
+}
+
+.first-ul{
+  display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+.title-h3{
+  color:maroon;
+}
+.first-ul h5{
+  font-weight: 0;
+  color:grey
+}
+.first-ul li{
+list-style-type: none;
+font-size: 1.4em;
+font-weight: bold;
+}
+.profile2{
+  margin-left:2em;
+}
+/* header */
+.headers{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: maroon;
+}
+.head-img{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  margin-left: 40em;
+  
+}
+.head-div{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ color:white
+}
+.text-mail{
+  font-size: 1.4em;
+}
+.h2-title{
+  color:white;
+  margin-top: 0.4em;
+  margin-left: 1em;
+}
+.admin-login{
+  text-decoration: none;
+  color:white;
+  font-size: 2em;
+  margin-left:15em;
+  margin-top:1em;
+}
+/* login form */
+.btn{
+  background-color: maroon;
+  color:white;
+  border: none;
+  height:'30px'
+}
